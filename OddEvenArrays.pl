@@ -13,8 +13,8 @@ use warnings;
 
 #Variables
 my @nums = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-my @oddNums;
-my @evenNums;
+my @oddNums[5];
+my @evenNums[6];
 
 #Array Splicing 
 @oddNums = @nums[0,2,4,6,8,10];
